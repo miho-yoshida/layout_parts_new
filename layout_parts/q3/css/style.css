@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.heading, .tab {
+  border: solid #dedede 1px;
+}
+
+.chart {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.heading {
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #2244aa;
+}
+
+.tab {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.line:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
+.line:last-child {
+  border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */
