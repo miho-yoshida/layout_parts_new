@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float__content {
+
+}
+
+.float__inner {
+
+}
+
+.float__box {
+  width: 225px;
+  float: left;
+  font-size: 16px;
+
+}
+
+.float__box:last-child {
+  margin-left: 50px;
+
+}
+
+
 /* 回答はここに書いてね */

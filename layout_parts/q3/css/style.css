@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.heading, .tab {
+.chart th, td {
   border: solid #dedede 1px;
 }
 
@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.heading {
+.chart th {
   padding: 10px 0;
   font-size: 18px;
   line-height: 26px;
@@ -19,17 +19,17 @@
   background-color: #2244aa;
 }
 
-.tab {
+.chart td {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
 }
 
-.line:nth-child(odd) {
+.body tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-.line:last-child {
+.foot {
   border-top: dashed #000 2px;
 }
 

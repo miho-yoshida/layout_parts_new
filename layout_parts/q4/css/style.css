@@ -3,59 +3,54 @@
 /* 回答はここに書いてね */
 
 .q4__content {
-  width: 100%;
-  margin: 0 auto ;
-  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  padding: 20px;
   background-color: #ecf1f2;
   text-align: center;
 }
 
-.box {
+.q4__box {
   display: table;
   display: flex;
 }
 
+.q4__box:last-child {
+  margin-top: 20px;
+}
+
+.color {
+  padding: 20px 0;
+  display: table-cell;
+}
+
 .pink {
   width: 100px;
-  padding: 20px 0;
   background-color: #fdc8b8;
-  display: table-cell;
-
 }
 
 .purple {
-  padding: 20px 0;
   background-color: #e0abd9;
-  display: table-cell;
   flex: 1;
 }
 
 .blue {
   width: 100px;
-  padding: 20px 0;
   background-color: #b6d8ed;
-  display: table-cell;
 }
 
 .yellow {
-  padding: 20px 0;
   background-color: #e5d32e;
   flex: 1;
-  display: table-cell;
 }
 
 .red {
-  padding: 20px 0;
   background-color: #ec8f9a;
-  display: table-cell;
   flex: 1;
 }
 
 .green {
   width: 500px;
-  padding: 20px 0;
   background-color: #8fdcad;
-  display: table-cell;
 }
 
 /* 回答はここに書いてね */
