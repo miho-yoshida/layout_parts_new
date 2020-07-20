@@ -11,11 +11,13 @@
 
 .q4__box {
   display: table;
-  display: flex;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.q4__box:last-child {
-  margin-top: 20px;
+.q4__box:first-child {
+  margin-top: 0;
 }
 
 .color {
@@ -30,7 +32,6 @@
 
 .purple {
   background-color: #e0abd9;
-  flex: 1;
 }
 
 .blue {
@@ -40,12 +41,10 @@
 
 .yellow {
   background-color: #e5d32e;
-  flex: 1;
 }
 
 .red {
   background-color: #ec8f9a;
-  flex: 1;
 }
 
 .green {

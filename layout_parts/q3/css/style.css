@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.chart th, td {
+.chart th, .chart td {
   border: solid #dedede 1px;
 }
 
@@ -25,11 +25,11 @@
   text-align: center;
 }
 
-.body tr:nth-child(2n) {
+tbody tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-.foot {
+.chart tfoot {
   border-top: dashed #000 2px;
 }
 
